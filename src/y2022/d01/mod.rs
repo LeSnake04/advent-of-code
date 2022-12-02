@@ -1,9 +1,7 @@
 use anyhow::Result;
 use snake_helper::unwrap_ok_or;
 
-const INPUT: &str = include_str!("input.txt");
-#[allow(unused)]
-const TEST_INPUT: &str = include_str!("test_input.txt");
+crate::base_use!();
 
 pub fn main() -> Result<()> {
 	let out = simple(INPUT);
